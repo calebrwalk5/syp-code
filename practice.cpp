@@ -2,8 +2,8 @@
 using namespace std;
 
 /*
- *  * MTU Summer Youth Program practice C++ program
- *  */
+ * MTU Summer Youth Program practice C++ program
+ */
 
 int fizzbuzz() {
   for (int i = 1; i < 100; i++) {
@@ -20,7 +20,7 @@ int fizzbuzz() {
 }
 
 int main () {
-	fizzbuzz;
+	fizzbuzz();
 	int coolness = 1;
 	bool student = true;
 	bool epic = true;
@@ -29,9 +29,9 @@ int main () {
 		coolness++;
 	}
 	if (epic == true) {
-		for (;;) {
+		for (int i = 0; i < 50; i++) {
 			coolness++;
-			std::cout << "coolness: " << coolness << "\n";
+			std::cout << "coolness: " << coolness << " ";
 		}
 	}
         return 0;
