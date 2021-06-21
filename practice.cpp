@@ -20,10 +20,16 @@ int fizzbuzz() {
 }
 
 int main () {
-	fizzbuzz();
 	int coolness = 1;
 	bool student = true;
 	bool epic = true;
+	string name = "";
+
+	std::cout << "this is coding for the Internet of Things\n";
+	std::cout << "what is your name? ";
+	std::cin >> name;
+	std::cout << "hello, " << name << "\n";
+	fizzbuzz();
 
 	if (student == true) {
 		coolness++;
