@@ -1,4 +1,5 @@
 #include "iostream"
+#include "cmath" 
 using namespace std;
 
 /*
@@ -20,7 +21,7 @@ int fizzbuzz() {
 }
 
 int main () {
-	int coolness = 1;
+	int coolness = sqrt(93);
 	bool student = true;
 	bool epic = true;
 	string name = "";
