@@ -2,11 +2,7 @@
 #include "cmath" 
 using namespace std;
 
-/*
- * MTU Summer Youth Program practice C++ program
- */
-
-int fizzbuzz() {
+void fizzbuzz() {
   for (int i = 1; i < 100; i++) {
     if((i % 15) == 0) {
       std::cout << "fizzbuzz\n";

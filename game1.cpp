@@ -2,9 +2,7 @@
 #include "stdlib.h"
 using namespace std;
 
-/*
- * Text-based game for SYP
-*/
+// Text-based game for SYP
 
 string name = "";
 bool running = 0;
