@@ -14,13 +14,13 @@
 
 void receiveMessage(char *message);
 void sendMessage(char message[]);
-const char* message = "hello, caleb here";
+char message[100];
 
 int main(void) {
 
   char message[MAXLINE];
-
-  sendMessage("Random ass message");
+  fgets(message, MAXLINE, stdin);
+  sendMessage(message);
 
 }
 
@@ -28,6 +28,7 @@ void receiveMessage(char *message) {
 
   int sockfd;
   char buffer[MAXLINE];
+  printf("Message to send: ");
   char *hello = "Hello from client.";
 
   struct sockaddr_in servaddr;
