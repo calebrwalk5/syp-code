@@ -36,7 +36,7 @@ void receiveMessage(char *message) {
 
   bzero((char *)&servaddr, sizeof(servaddr));
 
-  if ((server = gethostbyname("c28-0112-13.ad.mtu.edu")) == NULL) {
+  if ((server = gethostbyname("hostname")) == NULL) {
 
     printf("Error, host name not valid\n");
 
